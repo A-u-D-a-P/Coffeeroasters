@@ -18,7 +18,7 @@ body {
 footer,
 header,
 main {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 @font-face {
@@ -34,8 +34,9 @@ main {
   src: url("../fonts/Fraunces/static/Fraunces/Fraunces-Black.ttf");
 }
 .container {
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
+  padding: 0 8px;
 }
 .header-top {
   padding: 45px 0;
@@ -63,6 +64,9 @@ main {
 .header-logo {
   width: 236px;
 }
+.coffee{
+  margin-left: 4px;
+}
 .header-nav {
   width: 283px;
 }
@@ -72,10 +76,13 @@ main {
 .header-list .header-item .header-link:active {
   color: #ff0033cd;
 }
+
+/* HERO */
+
 .hero-section {
   background-image: url("../images/Bitmap.jpg");
   border-radius: 10px;
-  width: 1280px;
+  max-width: 1280px;
   height: 600px;
   margin: 0 auto;
   padding: 117px 702px 116px 85px;
@@ -89,7 +96,8 @@ main {
   line-height: 72px;
   color: #fefcf7;
 }
-.bitmap__descryption {
+.bitmap__description {
+  width: 398px;
   margin-top: 32px;
   font-family: Barlow-400;
   font-style: normal;
@@ -105,8 +113,7 @@ main {
   font-weight: 900;
 }
 .bitmap__button {
-  position: absolute;
-  top: 435px;
+  margin-top: 40px;
   border-radius: 6px;
   font-style: normal;
   font-size: 18px;
@@ -450,4 +457,102 @@ p.card__descryption {
   width: 120px;
   height: 24px;
   background: #2c343e;
+}
+
+
+/* MEDIA */
+
+@media only screen and (max-width:768px) {
+  
+  .container{
+    max-width: 100%;
+    margin: 0;
+
+    
+
+
+  }
+  .header-top {
+    padding: 40px 0px 58px;
+    margin: 0;
+  }
+  .header-top-left{
+    width: 240px;
+    justify-content: space-between;
+  }
+  .header-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-family: Barlow-700;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888f;
+    margin-top: 3px;
+  }
+  .shape{
+    width: 24px;
+    height: 24px;
+  }
+  .header-nav {
+    width: 300px;
+  }
+
+ .coffee{
+    width: 203px;
+    height: 24px;
+    margin-left: 4px;
+  }
+  .header-list .header-item .header-link:hover {
+    color: #1f74ea;
+  }
+  .header-list .header-item .header-link:active {
+    color: #ff0033cd;
+  }
+
+  /* HERO */
+
+  .hero-section {
+    background-image: url("../images/hero-image.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    padding: 104px 58px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+  .bitmap__title {
+    width: 400px;
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 52px;
+    color: #fefcf7;
+  }
+  .bitmap__description {
+    margin-top: 32px;
+    font-family: Barlow-400;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(254, 252, 247, 0.8);
+  }
+  
 }
