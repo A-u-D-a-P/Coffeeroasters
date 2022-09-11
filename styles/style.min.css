@@ -153,6 +153,7 @@ main {
   -ms-transition: 0.1s;
   -o-transition: 0.1s;
 }
+
 .collection {
   position: relative;
   width: 1111px;
@@ -185,6 +186,9 @@ main {
   font-size: 16px;
   line-height: 26px;
 }
+
+
+
 .choosing {
   position: absolute;
   top: 1430px;
@@ -321,6 +325,9 @@ p.card__descryption {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+
+
+
 .footer-bottom,
 .footer-bottom-left {
   display: -webkit-box;
@@ -374,6 +381,10 @@ p.card__descryption {
   -ms-transition: 0.2s;
   -o-transition: 0.2s;
 }
+
+
+
+
 .footer__item .footer__link,
 .footer__list {
   font-family: Barlow-700;
@@ -457,102 +468,4 @@ p.card__descryption {
   width: 120px;
   height: 24px;
   background: #2c343e;
-}
-
-
-/* MEDIA */
-
-@media only screen and (max-width:768px) {
-  
-  .container{
-    max-width: 100%;
-    margin: 0;
-
-    
-
-
-  }
-  .header-top {
-    padding: 40px 0px 58px;
-    margin: 0;
-  }
-  .header-top-left{
-    width: 240px;
-    justify-content: space-between;
-  }
-  .header-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    font-family: Barlow-700;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-    letter-spacing: 0.923077px;
-    text-transform: uppercase;
-    color: #83888f;
-    margin-top: 3px;
-  }
-  .shape{
-    width: 24px;
-    height: 24px;
-  }
-  .header-nav {
-    width: 300px;
-  }
-
- .coffee{
-    width: 203px;
-    height: 24px;
-    margin-left: 4px;
-  }
-  .header-list .header-item .header-link:hover {
-    color: #1f74ea;
-  }
-  .header-list .header-item .header-link:active {
-    color: #ff0033cd;
-  }
-
-  /* HERO */
-
-  .hero-section {
-    background-image: url("../images/hero-image.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: 500px;
-    margin: 0 auto;
-    padding: 104px 58px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-  .bitmap__title {
-    width: 400px;
-    font-family: "Fraunces 9pt";
-    font-style: normal;
-    font-weight: 900;
-    font-size: 52px;
-    line-height: 52px;
-    color: #fefcf7;
-  }
-  .bitmap__description {
-    margin-top: 32px;
-    font-family: Barlow-400;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: rgba(254, 252, 247, 0.8);
-  }
-  
 }

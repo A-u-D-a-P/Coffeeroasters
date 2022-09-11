@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="../styles/style.min.css">
+   <link rel="stylesheet" href="./css/home.min.css">
    <!-- style min css -->
    <link rel="shortcut icon" href="../images/combined-shape.svg" type="image/x-icon">
    <!-- link icon -->
@@ -18,14 +18,17 @@
          <div class="header-top">
             <div class="header-top-left header-logo">
                <img class="shape" src="../images/combined-shape.svg" alt="combined-shape">
+               <img class="mobi-shape" src="./images/mobile-grains.png" alt="grains">
                <img class="coffee" src="../images/coffeeroasters.svg" alt="coffeeroasters">
+               <img class="mobi-coffee" src="./images/mobile-coffeeroasters.png" alt="mobile-coffeeroasters">
             </div>
             <div class="header-top-right header-nav">
+               <img class="header-burger" src="./images/burger.png" alt="burger">
                <nav class="nav">
                   <ul class="header-list">
                      <li class="header-item"><a class="header-link" href="#">home</a></li>
-                     <li class="header-item"><a class="header-link" href="about.html">about us</a></li>
-                     <li class="header-item"><a class="header-link" href="subscribe.html">create your plan</a></li>
+                     <li class="header-item"><a class="header-link" href="pages\about.html">about us</a></li>
+                     <li class="header-item"><a class="header-link" href="pages\subscribe.html">create your plan</a></li>
                   </ul>
                </nav>
             </div>
@@ -44,51 +47,71 @@
                <button class="bitmap__button" href="#">Create your plan</button>
             </div>
          </section>
-         <!-- <div class="second-section collection">
-            <img src="./images/collection.jpg" alt="our-collection">
+          <div class="second-section collection"> 
+            <img class="collection-img" src="./images/collection.jpg" alt="our-collection">
             <div class="collection__box">
             <div class="collection__list">
                <img class="list__image" src="./images/gran-espresso.png" alt="gran-espresso">
+               <div>
                <p class="list__title">Gran Espresso</p> <br>
                <p class="list__descryption">Light and flavorful blend with cocoa and black pepper for an intense experience</p>
+               </div>
             </div>
             <div class="collection__list">
                <img class="list__image" src="./images/planalto.png" alt="planalto">
+               <div>
                <p class="list__title">Planalto</p> <br>
                <p class="list__descryption">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts</p>
+               </div>
             </div>
             <div class="collection__list">
                <img class="list__image" src="./images/piccollo.png" alt="piccollo">
+               <div>
                <p class="list__title">Piccollo</p> <br>
                <p class="list__descryption">Mild and smooth blend featuring notes of toasted almond and dried cherry</p>
+               </div>
             </div>
             <div class="collection__list">
                <img class="list__image" src="./images/danche.png" alt="danche">
+               <div>
                <p class="list__title">Danche</p> <br>
                <p class="list__descryption">Ethiopian hand-harvested blend densely packed with vibrant fruit notes</p>
+               </div>
             </div>
           </div>
          </div>
          <section class="third-section choosing">
             <h2>Why choose us?</h2>
-            <p>A large part of our role is choosing which particular coffees will be featured 
+            <p class="choosing__description">A large part of our role is choosing which particular coffees will be featured 
                in our range. This means working closely with the best coffee growers to give 
                you a more impactful experience on every level.</p>
             <div class="choosing__box">
                <div class="choosing__card">
-                  <img class="card__image" src="./images/Shape.svg" alt="Shape">
+                  <div class="choose__img">
+                  <img class="card__image grain" src="./images/Shape.svg" alt="Shape">
+                  </div>
+                  <div>
                   <p class="card__title">Best quality</p> <br>
-                  <p class="card__descryption">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+                  <p class="card__descryption discover">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+                  </div>
                </div>
                <div class="choosing__card">
-                  <img class="card__image" src="./images/present.svg" alt="present">
+                  <div class="choose__img">
+                  <img class="card__image present" src="./images/present.svg" alt="present">
+                  </div>
+                  <div>
                   <p class="card__title">Exclusive benefits</p> <br>
                   <p class="card__descryption">Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+                  </div>
                </div>
                <div class="choosing__card">
-                  <img class="card__image" src="./images/truck.svg" alt="truck">
+                  <div class="choose__img">
+                  <img class="card__image truck" src="./images/truck.svg" alt="truck">
+                  </div>
+                  <div>
                   <p class="card__title">Free shipping</p> <br>
                   <p class="card__descryption">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+                  </div>
                </div>
             </div>
          </section>
@@ -105,9 +128,9 @@
             <div class="extra-section-card-box">
                <div class="extra-section-card">
                   <h4 class="card__number">01</h4>
-                  <h5 class="card___title">Pick your
+                  <h5 class="card___title pick">Pick your
                      coffee</h5>
-                  <p class="card__description">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+                  <p class="card__description" id="select">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
                </div>
                <div class="extra-section-card">
                   <h4 class="card__number">02</h4>
@@ -120,8 +143,10 @@
                   <p class="card__description">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
                </div>
             </div>
+            <div class="extra-btn">
             <a class="extra-section-button" href="#">Create your plan</a>
-         </section> -->
+            </div>
+         </section> 
       </div>
    </main>
    <!-- footer -->
