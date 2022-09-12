@@ -209,10 +209,6 @@ p.card__descryption {
   font-style: normal;
 }
 
-
-// EXTRA SECTION
-
-
 .extra-section {
   max-width: 1045px;
   padding-bottom: 100px;
@@ -308,23 +304,24 @@ p.card__descryption {
   font-size: 18px;
   line-height: 25px;
   color: #fff;
-  background: #0E8784;
+  background: #0e8784;
   padding: 15px 31px 16px;
-  border: 1px solid #0E8784;
+  border: 1px solid #0e8784;
   border-radius: 6px;
   transition: 0.2s;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   -ms-transition: 0.2s;
   -o-transition: 0.2s;
+
 }
 
 // MEDIA FOR EXTRA
 
-@media only screen and (max-width:1126px) {
-    .choosing{
-      margin-bottom: 720px;
-    }
+@media only screen and (max-width: 1126px) {
+  .choosing {
+    margin-bottom: 720px;
+  }
 }
 
 // MEDIA FOR Collection
@@ -402,10 +399,10 @@ p.card__descryption {
   }
 }
 
-@media only screen and (max-width:800px) {
-   .card___title {
-      margin-right: 0;
-    }
+@media only screen and (max-width: 800px) {
+  .card___title {
+    margin-right: 0;
+  }
 }
 
 @media only screen and (max-width: 790px) {
@@ -451,7 +448,6 @@ p.card__descryption {
   }
 
   // COLLECTION
-
 
   .collection__box {
     flex-direction: column;
@@ -508,96 +504,95 @@ p.card__descryption {
     box-sizing: content-box;
     display: flex;
     flex-direction: column;
-    
   }
   .card__image {
     width: 55px;
     height: 56px;
   }
 
-  p.card__title, p.card__descryption{
+  p.card__title,
+  p.card__descryption {
     text-align: left;
     width: auto;
     margin: 0;
   }
-  div p.card__title{
+  div p.card__title {
     opacity: 1;
   }
-  p.discover{
+  p.discover {
     width: 118%;
   }
-  .choosing__card .choose__img{
+  .choosing__card .choose__img {
     width: 10.8%;
     // margin-left: 25px;
   }
 
-  .truck{
+  .truck {
     width: 55px;
     height: 39px;
   }
 
-// EXTRA
-
+  // EXTRA
 }
 
-// SCREEN for EXTRA 
-@media only screen and (max-width:668px) {
-    .extra-section-card-box{
-      padding-bottom: 150px;
-    }    
-    .figure-box{
-      width: 78.5%;
-    }
+// SCREEN for EXTRA
+@media only screen and (max-width: 668px) {
+  .extra-section-card-box {
+    padding-bottom: 150px;
+  }
+  .figure-box {
+    width: 78.5%;
+  }
 }
-// 
+//
 
-  // 
-@media only screen and (max-width:622px) {
-  .extra-section-card-box{
+//
+@media only screen and (max-width: 622px) {
+  .extra-section-card-box {
     flex-wrap: wrap;
     justify-content: space-evenly;
-  }    
-  .extra-section-card:nth-child(3){
+  }
+  .extra-section-card:nth-child(3) {
     text-align: center;
   }
-  .figure-box{
+  .figure-box {
     margin: 0 auto 67px;
   }
-  .pick{
+  .pick {
     margin-right: 20px;
   }
 }
-// 
+//
 
-@media only screen and (max-width:616px) {
-  .extra-section h3{
+@media only screen and (max-width: 616px) {
+  .extra-section h3 {
     text-align: center;
   }
-  .extra-section-card-box{
+  .extra-section-card-box {
     width: 100%;
     margin: 0 auto;
     flex-direction: column;
   }
-  .extra-section-card{
+  .extra-section-card {
     max-width: 100%;
     text-align: center;
-  }    
-  .pick{
+  }
+  .pick {
     margin-right: 0;
   }
-  .card__description{
+  .card__description {
     padding: 0 40px;
   }
 }
 
 // Screen:580px for choosing-section
-@media only screen and (max-width:484px) {
-  .choosing{
+@media only screen and (max-width: 484px) {
+  .choosing {
     margin-top: 1385px;
   }
 }
 
-@media only screen and (max-width:580px) {
+@media only screen and (max-width: 580px) {
   .choosing {
     height: 630px;
     background: #2c343e;
@@ -607,43 +602,39 @@ p.card__descryption {
     h2 {
       padding: 0 5px;
     }
-    .choosing__description{
-        padding: 0 24px 64px 24px;
+    .choosing__description {
+      padding: 0 24px 64px 24px;
     }
- }
+  }
 
- .extra-section-card-box{
-  padding: 0;
-}   
-div.extra-section-card{
-  margin-bottom: 0;
-}
+  .extra-section-card-box {
+    padding: 0;
+  }
+  div.extra-section-card {
+    margin-bottom: 0;
+  }
 
-.extra-btn{
-  display: flex;
-  justify-content: center;
-}
+  .extra-btn {
+    display: flex;
+    justify-content: center;
+  }
 
-.figure-box{
-  display: none;
+  .figure-box {
+    display: none;
+  }
 }
- 
+//
+@media only screen and (max-width: 552px) {
+  .extra-section-card {
+    margin-bottom: 75px;
+  }
 }
-// 
-@media only screen and (max-width:552px) {
-    .extra-section-card{
-      margin-bottom: 75px;
-    }
-
-}
-// 
-@media only screen and (max-width:545px) {
-  .choosing{
+//
+@media only screen and (max-width: 545px) {
+  .choosing {
     height: 650px;
   }
 }
-
-
 
 // MOBILE
 
@@ -701,108 +692,106 @@ div.extra-section-card{
     top: 15px;
   }
 
-    // choosing
+  // choosing
 
-    .choosing {
-      height: 962px;
-      background: #2c343e;
-      border-radius: 10px;
-      padding-top: 100px;
-      margin-top: 1700px;
-      margin-bottom: 730px;
-  
-      .choosing__box {
-        height: 1194px;
-      }
-    }
-    .choosing .choosing__card {
-      height: 382px;
-      flex-direction: column;
-    }
-    .choosing p{
-      padding: 0 24px 64px 24px;
-    }
-  
-    p.card__title, p.card__descryption{
-      text-align: center;
-      width: auto;
-      margin: 0;
-    }
-    p.card__title{
-      font-family: 'Fraunces 9pt';
-      font-style: normal;
-      font-weight: 900;
-      font-size: 24px;
-      line-height: 32px;
-      padding: 0;
-    }
-    p.card__descryption{
-      width: 90%;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 26px;
-      padding: 0 5px;
-    }
-    .choose__img{
-      width: 100%;
-      align-items: center;
-    }
-    .grain{
-      width: 71px;
-      height: 72px;
-    }
-    .present{
-      width: 72px;
-      height: 72px;
-    }
-   .truck{
-      width: 72px;
-      height: 50px;
-    }
-    .choosing__card div{
-      width: 83%;
-      align-items: center;
-    }
-    
+  .choosing {
+    height: 962px;
+    background: #2c343e;
+    border-radius: 10px;
+    padding-top: 100px;
+    margin-top: 1700px;
+    margin-bottom: 730px;
 
-    .figure-box{
-      display: none;
+    .choosing__box {
+      height: 1194px;
     }
+  }
+  .choosing .choosing__card {
+    height: 382px;
+    flex-direction: column;
+  }
+  .choosing p {
+    padding: 0 24px 64px 24px;
+  }
 
-    .extra-section-card-box{
-      width: 100%;
-      padding: 0;
-    }
-    .extra-section-card{
-      max-width: 100%;
-      
-    }
-    .pick{
-      margin-right: 0;
-    }
-    .card__description{
-      padding: 0 5px;
-    }
-    .card__description{
-      padding: 0 12px;
-    }
-    #select{
-      padding: 0 2px;
-    }
+  p.card__title,
+  p.card__descryption {
+    text-align: center;
+    width: auto;
+    margin: 0;
+  }
+  p.card__title {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 0;
+  }
+  p.card__descryption {
+    width: 90%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 5px;
+  }
+  .choose__img {
+    width: 100%;
+    align-items: center;
+  }
+  .grain {
+    width: 71px;
+    height: 72px;
+  }
+  .present {
+    width: 72px;
+    height: 72px;
+  }
+  .truck {
+    width: 72px;
+    height: 50px;
+  }
+  .choosing__card div {
+    width: 83%;
+    align-items: center;
+  }
 
-    .extra-btn{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      margin: 0 auto;
-    }
+  .figure-box {
+    display: none;
+  }
 
-    // FOOTER
+  .extra-section-card-box {
+    width: 100%;
+    padding: 0;
+  }
+  .extra-section-card {
+    max-width: 100%;
+  }
+  .pick {
+    margin-right: 0;
+  }
+  .card__description {
+    padding: 0 5px;
+  }
+  .card__description {
+    padding: 0 12px;
+  }
+  #select {
+    padding: 0 2px;
+  }
 
+  .extra-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  // FOOTER
 }
 
-@media only screen and (max-width:420px) {
-    .choosing{
-      height: 987px;
-    }
+@media only screen and (max-width: 420px) {
+  .choosing {
+    height: 987px;
+  }
 }
