@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="../styles/style.min.3.css">
+   <link rel="stylesheet" href="../css/create.min.css">
    <!-- style min css -->
    <link rel="shortcut icon" href="../images/combined-shape.svg" type="image/x-icon">
    <!-- link icon -->
@@ -23,6 +23,7 @@
                <img src="../images/coffeeroasters.svg" alt="coffeeroasters">
             </div>
             <div class="header-top-right header-nav">
+               <img class="header-burger" src="../images/burger.png" alt="burger">
                <nav class="nav">
                   <ul class="header-list">
                      <li class="header-item"><a class="header-link" href="../index.html">home</a></li>
@@ -63,14 +64,16 @@
                <div class="choose__card">
                   <h4 class="card___number">02</h4>
                   <h5 class="card___title">Choose the frequency</h5>
-                  <p class="card___description">Customize your order frequency, quantity, even your roast style and
+                  <p class="card___description customize">Customize your order frequency, quantity, even your roast
+                     style and
                      grind type. Pause, skip or cancel your subscription with no commitment through our online portal.
                   </p>
                </div>
                <div class="choose__card">
                   <h4 class="card___number">03</h4>
                   <h5 class="card___title">Receive and enjoy!</h5>
-                  <p class="card___description">We ship your package within 48 hours, freshly roasted. Sit back and
+                  <p class="card___description package">We ship your package within 48 hours, freshly roasted. Sit back
+                     and
                      enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
                </div>
             </div>
@@ -98,8 +101,10 @@
             </aside>
             <div class="content-box">
                <div class="content-box__drink">
-                  <h4 class="content-box__drink--title">How do you drink your coffee?</h4>
-                  <img class="content-box__drink--vector" src="./images/vector.svg" alt="vector">
+                  <div id="box__title">
+                     <h4 class="content-box__drink--title">How do you drink your coffee?</h4>
+                     <img class="content-box__drink--vector" src="../images/vector.svg" alt="vector">
+                  </div>
                   <div class="drink-card-box">
                      <div class="drink-card">
                         <p class="drink-card__title">Capsule</p>
@@ -118,141 +123,153 @@
                   </div>
                </div>
                <div class="content-box__type">
-                  <h4 class="content-box__type--title">
-                     What type of coffee?</h4>
-                  <img class="content-box__type--img" src="../images/vector.svg" alt="vector">
+                  <div id="box__title">
+                     <h4 class="content-box__type--title">
+                        What type of coffee?</h4>
+                     <img class="content-box__type--img" src="../images/vector.svg" alt="vector">
+                  </div>
                   <div class="content-card-box">
                      <div class="content-card">
-                     <p class="content-card__title">
-                        Single Origin
-                     </p>
-                     <p class="content-card__subtitle">
-                        Distinct, high quality coffee from a specific family-owned farm
-                     </p>
+                        <p class="content-card__title">
+                           Single Origin
+                        </p>
+                        <p class="content-card__subtitle">
+                           Distinct, high quality coffee from a specific family-owned farm
+                        </p>
                      </div>
                      <div class="content-card-decaf">
-                     <p class="content-card__title">
-                        Decaf
-                     </p>
-                     <p class="content-card__subtitle">
-                        Just like regular coffee, except the caffeine has been removed
-                     </p>
+                        <p class="content-card__title">
+                           Decaf
+                        </p>
+                        <p class="content-card__subtitle">
+                           Just like regular coffee, except the caffeine has been removed
+                        </p>
                      </div>
                      <div class="content-card">
-                     <p class="content-card__title">
-                        Blended
-                     </p>
-                     <p class="content-card__subtitle">
-                        Combination of two or three dark roasted beans of organic coffees
-                     </p>
+                        <p class="content-card__title">
+                           Blended
+                        </p>
+                        <p class="content-card__subtitle">
+                           Combination of two or three dark roasted beans of organic coffees
+                        </p>
                      </div>
                   </div>
                </div>
                <div class="content-box__how__much">
-                  <h4 class="content-box__how__much__title">
-                     How much would you like?
-                  </h4>
-                  <img class="content-box__how__much__img" src="./images/vector.svg" alt="vector">
+                  <div id="box__title">
+                     <h4 class="content-box__how__much__title">
+                        How much would you like?
+                     </h4>
+                     <img class="content-box__how__much__img" src="../images/vector.svg" alt="vector">
+                  </div>
                   <div class="content-card-box">
                      <div class="content-card-weight">
-                     <p class="content-card__title">
-                        250g
-                     </p>
-                     <p class="content-card__subtitle">
-                        Perfect for the solo drinker. Yields about 12 delicious cups.
-                     </p>
+                        <p class="content-card__title">
+                           250g
+                        </p>
+                        <p class="content-card__subtitle">
+                           Perfect for the solo drinker. Yields about 12 delicious cups.
+                        </p>
                      </div>
                      <div class="content-card">
-                     <p class="content-card__title">
-                        500g
-                     </p>
-                     <p class="content-card__subtitle">
-                        Perfect option for a couple. Yields about 40 delectable cups.
-                     </p>
+                        <p class="content-card__title">
+                           500g
+                        </p>
+                        <p class="content-card__subtitle">
+                           Perfect option for a couple. Yields about 40 delectable cups.
+                        </p>
                      </div>
                      <div class="content-card">
-                     <p class="content-card__title">
-                        1000g
-                     </p>
-                     <p class="content-card__subtitle">
-                        Perfect for offices and events. Yields about 90 delightful cups.
-                     </p>
+                        <p class="content-card__title">
+                           1000g
+                        </p>
+                        <p class="content-card__subtitle">
+                           Perfect for offices and events. Yields about 90 delightful cups.
+                        </p>
                      </div>
                   </div>
                </div>
                <div class="content-box__grind">
-                  <h4 class="content-box__grind__title">
-                     Want us to grind them?
-                  </h4>   
-                  <img class="content-box__grind__img" src="./images/vector.svg" alt="vector">
+                  <div id="box__title">
+                     <h4 class="content-box__grind__title">
+                        Want us to grind them?
+                     </h4>
+                     <img class="content-box__grind__img" src="../images/vector.svg" alt="vector">
+                  </div>
                   <div class="content-card-box">
                      <div class="content-card">
-                     <p class="content-card__title">
-                        Wholebean
-                     </p>
-                     <p class="content-card__subtitle">
-                        Best choice if you cherish the full sensory experience
-                     </p>
+                        <p class="content-card__title">
+                           Wholebean
+                        </p>
+                        <p class="content-card__subtitle">
+                           Best choice if you cherish the full sensory experience
+                        </p>
                      </div>
                      <div class="content-card">
-                     <p class="content-card__title">
-                        Filter
-                     </p>
-                     <p class="content-card__subtitle">
-                        For drip or pour-over coffee methods such as V60 or Aeropress
-                     </p>
+                        <p class="content-card__title">
+                           Filter
+                        </p>
+                        <p class="content-card__subtitle">
+                           For drip or pour-over coffee methods such as V60 or Aeropress
+                        </p>
                      </div>
                      <div class="content-card-cafetiere">
-                     <p class="content-card__title">
-                        Cafetiére
-                     </p>
-                     <p class="content-card__subtitle">
-                        Course ground beans specially suited for french press coffee
-                     </p>
+                        <p class="content-card__title">
+                           Cafetiére
+                        </p>
+                        <p class="content-card__subtitle">
+                           Course ground beans specially suited for french press coffee
+                        </p>
                      </div>
                   </div>
                </div>
                <div class="content-box__delivery">
-                  <h4 class="content-box__delivery__title">
-                     How often should we deliver?
-                  </h4>      
-                  <img class="content-box__delivery__img" src="./images/vector.svg" alt="vector">
-                  <div class="content-card-box">
+                  <div id="box__title">
+                     <h4 class="content-box__delivery__title">
+                        How often should we deliver?
+                     </h4>
+                     <img class="content-box__delivery__img" src="../images/vector.svg" alt="vector">
+                  </div>
+                  <div class="content-card-box deliver-box">
                      <div class="content-card-every">
-                     <p class="content-card__title">
-                        Every week
-                     </p>
-                     <p class="content-card__subtitle">
-                        $7.20 per shipment. Includes free first-class shipping.
-                     </p>
+                        <p class="content-card__title">
+                           Every week
+                        </p>
+                        <p class="content-card__subtitle">
+                           $7.20 per shipment. Includes free first-class shipping.
+                        </p>
                      </div>
                      <div class="content-card-week">
-                     <p class="content-card__title">
-                        Every 2 weeks
-                     </p>
-                     <p class="content-card__subtitle">
-                        $9.60 per shipment. Includes free priority shipping.
-                     </p>
+                        <p class="content-card__title">
+                           Every 2 weeks
+                        </p>
+                        <p class="content-card__subtitle">
+                           $9.60 per shipment. Includes free priority shipping.
+                        </p>
                      </div>
                      <div class="content-card">
-                     <p class="content-card__title">
-                        Every month
-                     </p>
-                     <p class="content-card__subtitle">
-                        $12.00 per shipment. Includes free priority shipping.
-                     </p>
+                        <p class="content-card__title">
+                           Every month
+                        </p>
+                        <p class="content-card__subtitle">
+                           $12.00 per shipment. Includes free priority shipping.
+                        </p>
                      </div>
                   </div>
                </div>
             </div>
          </div>
-         <div class="order-summary">
-            <p class="order-summary__title">Order Summary</p>
-            <p class="order-summary__subtitle">“I drink my coffee as <a href="#">Filter</a>, with a <a href="#">Decaf</a> type of bean. <a href="#">250g</a> ground ala <a href="#">Cafetiére</a>, sent to me <a href="#">Every Week</a>.”</p>
+         <div id="extra-section">
+            <div class="order-summary">
+               <p class="order-summary__title">Order Summary</p>
+               <p class="order-summary__subtitle">“I drink my coffee as <a href="#">Filter</a>, with a <a
+                     href="#">Decaf</a> type of bean. <a href="#">250g</a> ground ala <a href="#">Cafetiére</a>, sent to
+                  me <a href="#">Every Week</a>.”</p>
+            </div>
+            <button class="plan_btn">
+               Create my plan!
+            </button>
          </div>
-         <button class="plan_btn">
-            Create my plan!
-         </button>
       </div>
    </main>
 
@@ -263,8 +280,8 @@
          <div class="footer-bottom">
             <div class="footer-bottom-left">
                <div class="footer-logo">
-                  <img src="./images/combined-shape.svg" alt="combined-shape">
-                  <img src="./images/coffeeroasters_w.svg" alt="coffeeroasters">
+                  <img src="../images/combined-shape.svg" alt="combined-shape">
+                  <img src="../images/coffeeroasters_w.svg" alt="coffeeroasters">
                </div>
                <div class="footer-navbar">
                   <nav class="footer__nav">
@@ -280,11 +297,11 @@
             </div>
             <div class="footer-bottom-right">
                <a class="link__facebook" href="https://www.facebook.com" target="_blank"><img class="footer__icon"
-                     src="./images/facebook.svg" alt="facebook"></a>
-               <a href="https://twitter.com" target="_blank"><img class="footer__icon" src="./images/twitter.svg"
+                     src="../images/facebook.svg" alt="facebook"></a>
+               <a href="https://twitter.com" target="_blank"><img class="footer__icon" src="../images/twitter.svg"
                      alt="twitter"></a>
                <a href="https://www.instagram.com" target="_blank"><img class="footer__icon"
-                     src="./images/instagramm.svg" alt="instagram"></a>
+                     src="../images/instagramm.svg" alt="instagram"></a>
             </div>
          </div>
       </div>
